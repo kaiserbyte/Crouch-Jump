@@ -1,0 +1,6 @@
+# Not much to customize here.
+
+# Duration: How much time should the player have to be able to crouch-jump? (In ticks, default: 10)
+duration: 10
+# Amplifier: How strong should the crouch-jump be? (Default: 1)
+amplifier: 1
