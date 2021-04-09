@@ -4,6 +4,7 @@ A poorly-made, yet customizable Spigot 1.16.5 plugin that tries to imitate crouc
 # Commands:
 
 /crouchjump [reload]:
+
   permission: crouchjump.cmd
 
 # Config.yml:
