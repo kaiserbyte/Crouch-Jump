@@ -1,22 +1,10 @@
 # Crouch-Jump
-A poorly-made, yet customizable Spigot 1.16.5 plugin that tries to imitate crouch-jumping from the Source engine.
-
-# Known issues:
-
-Consuming a Jump Boost potion (or achieving the effect from any other source) and crouching will remove the Jump Boost status effect from the player after jumping or waiting for too long. (I am incredibly stupid and don't know how to fix this)
+A customizable Spigot 1.16.5 plugin that temporarily gives players Jump Boost when they crouch.
 
 # Commands:
-
-/crouchjump [reload]:
-
-  permission: crouchjump.cmd
-
-# Config.yml:
-
-#Duration: How much time should the player have to be able to crouch-jump? (In ticks, default: 10)
-
-duration: 10
-
-#Amplifier: How strong should the crouch-jump be? (Default: 1)
-
-amplifier: 1
+  /crouchjump: Shows the command list (which only contains one other command)
+  /crouchjump [reload]: Reloads config.yml
+  
+# Permissions:
+  crouchjump.cmd - Allows usage of /crouchjump and /crouchjump reload
+  crouchjump.jump - Allows players to crouch-jump (if lock-crouch-jumping-behind-permissions in config.yml is set to true)
