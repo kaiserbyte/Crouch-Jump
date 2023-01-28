@@ -1,6 +1,18 @@
 # Not much to customize here.
 
-# Duration: How much time should the player have to be able to crouch-jump? (In ticks, default: 10)
+# Duration | How much time should the player have to be able to crouch-jump? Time is measured in ticks. (Default: 10)
+# Set this to -1 if you want players to be able to crouch-jump no matter how long they have crouched for.
 duration: 10
-# Amplifier: How strong should the crouch-jump be? (Default: 1)
-amplifier: 1
+
+# Amplifier | How much Jump Boost should be applied to the player when they crouch? (Default: 2)
+amplifier: 2
+
+# Stack multiplier | This will modify the crouch-jump amplifier by taking the player's existing Jump Boost effect and adding/multiplying it by the amplifier set in this file.
+# Set this to "additive" to have it add your existing jump boost amplifier to Crouch-Jump's set amplifier.
+# Set this to "multiply" to have it multiply the amplifier (e.g. already having Jump Boost II + Crouch-Jump's default amplifier (2) = Jump Boost IV)
+# Set this to "disable" to disable effect stacking. (Default: additive)
+effect-stack-multiplier: additive
+
+# Lock crouch-jumping behind permissions | Setting this to true will prevent normal players from being able to crouch-jump.
+# The ability to crouch-jump will be locked behind the permission "crouchjump.jump" (Default: false)
+lock-crouch-jumping-behind-permissions: false

@@ -1,18 +1,17 @@
 name: Crouch-Jump
 main: xyz.kaisershare.crouchjump.Main
-version: 0.1.3
+version: 1.0.0
 api-version: 1.13
-description: Tries to emulate how the Source engine handles crouch-jumping.
-author: KaiserShare.xyz
+description: A customizable plugin that temporarily grants Jump Boost to a player when they crouch.
+author: evelon
 website: https://kaisershare.xyz
 commands:
-  crouchjump:
-    description: Reloads the crouch-jump plugin's config.
-    #usage: /crouchjump
-    permission: crouchjump.cmd
-    permission-message: "§cAccess denied."
-    #usage: "Usage: /crouchjump [reload]"
+   crouchjump:
+     description: Reloads the crouch-jump plugin's configuration file
+     aliases: [crouch-jump, cj]
+     permission: crouchjump.cmd
+     permission-message: "§cAccess denied."
 permissions:
-  crouchjump.cmd:
-    default: op
-    description: Allows use for /crouchjump.
+   crouchjump.cmd:
+     default: op
+     description: "Allows usage of /crouchjump"
