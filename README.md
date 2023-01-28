@@ -1,5 +1,5 @@
 # Crouch-Jump
-A customizable Spigot 1.16.5 plugin that temporarily gives players Jump Boost when they crouch.
+A customizable Spigot 1.16.5 plugin that temporarily gives players Jump Boost when they crouch. Works on 1.1-1.19.3.
 
 # Commands:
   /crouchjump: Shows the command list (which only contains one other command)
