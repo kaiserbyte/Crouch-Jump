@@ -1,6 +1,6 @@
 name: Crouch-Jump
 main: xyz.kaisershare.crouchjump.Main
-version: 1.0.0
+version: 1.0.1
 api-version: 1.13
 description: A customizable plugin that temporarily grants Jump Boost to a player when they crouch.
 author: evelon
