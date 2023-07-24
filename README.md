@@ -1,4 +1,6 @@
 # Crouch-Jump
+![Static Badge](https://img.shields.io/badge/build-ON%20MODRINTH-1BD96A?label=GET%20IT&link=https%3A%2F%2Fmodrinth.com%2Fplugin%2Fcrouch-jump) ![Static Badge](https://img.shields.io/badge/build-ON%20SPIGOTMC-ED8106?label=GET%20IT&link=https%3A%2F%2Fmodrinth.com%2Fplugin%2Fcrouch-jump)
+
 A customizable Spigot 1.16.5 plugin that temporarily gives players Jump Boost when they crouch. Works on versions Release 1.1 and above.
 
 # Features
